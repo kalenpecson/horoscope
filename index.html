@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body{
-            background-color: cyan ;
-        }
-    </style>
-
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="script.js"></script>
@@ -14,9 +8,9 @@
 </head>
 <body  onload="setup()">
 
-<p><b><font size="22" color="blue">Find Your Horoscope</b></p>
-<p><font size="5" color="black">Enter Your Name And Birthday!</p>
-<p>Name:<p>
+<div class="center">
+<b>Find Your Horoscope!</b>
+<p>Enter Your Name And Birthday</p>
 <input type="text" id="name" value="" size="25">
 <select id="month" onchange="monthlength()" >
                 <option value="1">January</option>
@@ -35,8 +29,8 @@
 <select id="days">
 </select>
 <button id="myButton" onclick="getHoroscope()">Enter</button>
-        <div id="output"></div>
-        <div id ="personalmessage"></div>
-        <div id="image"></div>
+<div id="output"></div>
+<div id="image"></div>
+</div>
 </body>
 </html>
