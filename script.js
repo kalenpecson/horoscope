@@ -1,3 +1,4 @@
+//hello//
 function getHoroscope(){
     document.getElementById("output").style.display="block";
     var day = document.getElementById("days").value;
